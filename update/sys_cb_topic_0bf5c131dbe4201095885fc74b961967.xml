@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Studio Botty test</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.21","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"adf37c2810a4441f95eedcef95b1be20":{"id":"adf37c2810a4441f95eedcef95b1be20","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"a97ec997dd87485b980139e826c7e53f":{"id":"a97ec997dd87485b980139e826c7e53f","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"6cac64882d6f4ec783732c296daae92b","edgeType":"Edge","source":"adf37c2810a4441f95eedcef95b1be20","target":"a97ec997dd87485b980139e826c7e53f","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Nina Studio test</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Nina Studio test</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-18 15:27:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0bf5c131dbe4201095885fc74b961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nina Studio test</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_0bf5c131dbe4201095885fc74b961967</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-18 15:27:17</sys_updated_on>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=0bf5c131dbe4201095885fc74b961967"/>
+</record_update>
